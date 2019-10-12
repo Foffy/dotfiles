@@ -186,4 +186,7 @@ alias emoji_run='echo -n "ᕕ( ᐛ )ᕗ" | xclip -selection clipboard'
 alias myip='echo $(curl -s https://api.ipify.org)'
 
 alias shutdown='sudo shutdown -h'
-alias ca='conda activate'
+alias cna='conda activate'
+alias cnd='conda deactivate'
+
+alias python='/usr/bin/python3'
