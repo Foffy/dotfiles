@@ -17,7 +17,7 @@ will remove your current dotfiles and symbolic link those in this repo
     cd ~
     mkdir git
     cd git
-    git clone http://github.com/charnley/dotfiles
+    git clone http://github.com/foffy/dotfiles
     cd dotfiles
     # if you need dependencies
     make depend
