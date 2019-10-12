@@ -167,3 +167,19 @@ alias qf='~jacquot/bin/node_list.py | egrep "shi|lhi|lii"'
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [ -f /home/charnley/dev/2019-serverless/node_modules/tabtab/.completions/slss.bash ] && . /home/charnley/dev/2019-serverless/node_modules/tabtab/.completions/slss.bash
 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/klb/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/klb/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/klb/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/klb/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
